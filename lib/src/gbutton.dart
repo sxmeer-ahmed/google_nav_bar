@@ -98,7 +98,7 @@ class _GButtonState extends State<GButton> {
         text: Text(
           widget.text,
           style: widget.textStyle ??
-              TextStyle(
+              GoogleFonts.poppins(
                 fontWeight: FontWeight.w600,
                 color: widget.textColor,
               ),
